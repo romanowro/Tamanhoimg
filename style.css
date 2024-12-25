@@ -1,17 +1,17 @@
 body{
     height: 100vh;
-    background-color: black;
-    background-image: url('/Atividades/exercicio22/imagens/wallpaper002.jpg');
-    background-position: center center;
-    background-repeat: repeat-y ;
-    background-size: cover ;
+
+    background:  black url('/Atividades/exercicio22/imagens/wallpaper002.jpg')  center center no-repeat  fixed ;
+
+    background-size: cover;
 }
+/* cominando cover e fixed*/
 
 main{
 
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    width: 400px;
+    max-width: 400px;
     padding: 10px;
     margin: auto;
     
